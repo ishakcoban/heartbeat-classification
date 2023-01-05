@@ -1,5 +1,7 @@
-import pandas as pd
-from sklearn.neighbors import KNeighborsClassifier
-from processDataset import trainingSet, testSet, trainingLabels, testLabels
+from kNN import implementkNN
+from SVM import implementSVM
+from DecisionTree import implementDecisionTree
 
-print(testLabels)
+implementkNN()
+implementSVM()
+implementDecisionTree()
